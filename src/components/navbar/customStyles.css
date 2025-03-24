@@ -1,0 +1,47 @@
+/* customStyles.css */
+.blue-gray-navbar {
+  background-color: #30336B; /* Updated to the new color */
+  box-shadow: 0 2px 4px 0px rgba(0,0,0,.2); /* Add a shadow to the bottom of the navbar */
+  height: 70px; /* Adjust this value as needed */
+}
+
+.blue-gray-navbar .navbar-brand,
+.blue-gray-navbar .nav-link {
+  color: white !important;
+}
+
+.blue-button {
+  background-color: #30336B !important;
+  border-color: #30336B !important;
+}
+
+.blue-button:hover,
+.blue-button:focus,
+.blue-button:active {
+  background-color: #4a4e82 !important; /* Slightly lighter shade for hover/focus/active states */
+  border-color: #4a4e82 !important;
+}
+
+.whiteborder-button {
+  background-color: #30336B !important;
+  border: 1px solid #ffffff !important;
+  color: #ffffff !important;
+}
+
+.whiteborder-button:hover,
+.whiteborder-button:focus,
+.whiteborder-button:active {
+  background-color: #4a4e82 !important; /* Slightly lighter shade for hover/focus/active states */
+  border: 1px solid #ffffff !important;
+  color: #ffffff !important;
+}
+
+.welcome-text {
+  display: flex; /* Flexbox layout */
+  align-items: center; /* Center items vertically */
+  justify-content: space-between; /* Space items evenly */
+  border-left: 2px solid #ffffff; /* White border-left */
+  padding-left: 10px; /* Adjust padding as needed */
+  padding-right: 10px;
+  color: #ffffff; /* Ensure the text color is white */
+}
